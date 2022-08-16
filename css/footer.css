@@ -1,0 +1,18 @@
+footer{
+border-top: 0.1rem solid white;
+margin: 0.8rem;
+}
+.footer-article{
+display: flex;
+gap: clamp(1rem, 5vw, 100rem);
+justify-content: center;
+font-size: clamp(1rem, 2vw, 1.5rem);
+
+}
+.copy{
+    font-size: clamp(0.85rem, 1vw, 1rem);
+    text-align: center;
+}
+@media screen and (min-width: 700px) {
+    
+}

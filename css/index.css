@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-image: url(../img/mobiletest.png);
+    min-height: 833px;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*TEXT SETTINGS*/
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+   
+   
+   
+}
+@media screen and (min-width: 800px) {
+
+    body{
+        background-image: url(../img/tmavsie.png);
+    }
+    
+}
+h1{
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    margin: 0;
+    margin: 0.5rem;
+}
+.about-us-article{
+
+    margin: 0 0.5rem;
+ 
+   justify-content: center;
+   gap: 1rem;
+ 
+   padding: 0.5rem;
+}
+.about-us{
+    margin: 0;
+    max-width: 50ch;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-top: 0.5rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+   
+}
+@media screen and (min-width: 700px) {
+    section{
+    margin-top: 5rem;
+    }
+    .about-us-article{
+     display: flex;
+     text-shadow: none;
+     
+     
+    }
+    .about-us{
+        text-shadow: none;
+        border-right: 0.1rem solid white;
+        margin: 0;
+        padding-bottom: 5rem;
+    }
+    #border{
+       border: none;
+    }
+ .spoluprace-article{
+    margin-top: 2rem;
+ }
+    .pomocne{
+        margin: 5rem 0;
+    }
+
+}
+.spolupraca-img{
+    height: 9vh;
+    
+}
+.spoluprace-article{
+text-align: center;
+
+
+}
+
+
